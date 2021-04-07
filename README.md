@@ -4,19 +4,27 @@
 
 Term: Spring 2021
 
-+ Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Team #3
++ Projec title: Causal Inference Algorithms Evaluation
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	+ Fang, Zi zf2258@columbia.edu
+	+ Gao, Catherine cyg2107@columbia.edu
+	+ Sang, Siyuan ss6165@columbia.edu
+	+ Washington, Eve esw2175@columbia.edu
+
++ Project summary: In this project, we evaluate three causal inference algorithms to compute the average treatment effect (ATE) on two distict datasets and compare their computational efficiency and performance. One dataset contains high dimensional data and another contains low dimensional data. We will use L1 penalized logistic regression to estimate the propensity scores for these two datasets then apply the three methods to calcualte ATE for each dataset. Below is a summary of the results:
+
+| **Algorithm** | **Propensity Score Estimation** | 
+|:-------------|:-------:|
+| Propensity Scores Matching (full)    | L1 penalized logistic regression|
+| Doubly Robust Estimations  | L1 penalized logistic regression| 
+| Stratification | L1 penalized logistic regression| 
+
 	
-**Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+
 
 ```
 proj/
