@@ -15,7 +15,7 @@ Term: Spring 2021
 + Project summary: In this project, we evaluate three causal inference algorithms to compute the average treatment effect (ATE) on two distict datasets and compare their computational efficiency and performance. One dataset contains high dimensional data and another contains low dimensional data. We will use L1 penalized logistic regression to estimate the propensity scores for these two datasets then apply the three methods to calcualte ATE for each dataset. Below is a summary of the results:
 
 | **Algorithm** | **Data Type** | **Run Time** | **ATE** | **Accuracy** | 
-|:-------------|:-------:|
+|:-------------|:-------:|:-------:|:-------:|:-------:|
 | Propensity Scores Matching (full)    | Low| 1.34| 0.36| 17%|
 | Doubly Robust Estimation    | Low| 0.07| -6.61| -316%|
 | Stratification   | Low| 0.03| 2.38| 86%|
