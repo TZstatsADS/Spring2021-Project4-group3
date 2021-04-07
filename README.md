@@ -26,7 +26,7 @@ Term: Spring 2021
 	
 **Contribution statement**: 
 
-Catherine Gao: coordinated and attend all group meetings, performed propensity score estimation and reviewed results from all models, created Main Reports and explained model comparisons, updated Github homepage and folders, put together presentation file and is the presenter of the group.
+Catherine Gao: coordinated and attended all group meetings, performed propensity score estimation and reviewed results from all models, created Main Report and explained model comparisons, updated Github homepage and folders, put together presentation file and is the presenter of the group.
 
 Zi Fang: attended all group meetings, performend doubly robust estimation and reviewed evaluation results
 
