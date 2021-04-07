@@ -14,14 +14,26 @@ Term: Spring 2021
 
 + Project summary: In this project, we evaluate three causal inference algorithms to compute the average treatment effect (ATE) on two distict datasets and compare their computational efficiency and performance. One dataset contains high dimensional data and another contains low dimensional data. We will use L1 penalized logistic regression to estimate the propensity scores for these two datasets then apply the three methods to calcualte ATE for each dataset. Below is a summary of the results:
 
-| **Algorithm** | **Propensity Score Estimation** | 
+| **Algorithm** | **Data Type** | **Run Time** | **ATE** | **Accuracy** | 
 |:-------------|:-------:|
-| Propensity Scores Matching (full)    | L1 penalized logistic regression|
-| Doubly Robust Estimations  | L1 penalized logistic regression| 
-| Stratification | L1 penalized logistic regression| 
+| Propensity Scores Matching (full)    | Low| 1.34| 0.36| 17%|
+| Doubly Robust Estimation    | Low| 0.07| -6.61| -316%|
+| Stratification   | Low| 0.03| 2.38| 86%|
+| Propensity Scores Matching (full)    | High| 12.78| -11.71| 21%|
+| Doubly Robust Estimation    | High| 0.18| -34.43| 63%|
+| Stratification   | High| 0.02| -59.83| 91%|
 
 	
 **Contribution statement**: 
+
+Catherine Gao: coordinated and attend all group meetings, performed propensity score estimation and reviewed results from all models, created Main Reports and explained model comparisons, updated Github homepage and folders, put together presentation file and is the presenter of the group.
+
+Zi Fang: attended all group meetings, performend doubly robust estimation and reviewed evaluation results
+
+Eve Washington: attended all group meetings, performed stratification, helped to validate doubly robust algorithm, and reviewed evaluation results
+
+Siyuan Sang: attended all group meetings, performed propensity score matching and reviewed evaluation results
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
