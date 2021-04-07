@@ -16,23 +16,23 @@ Term: Spring 2021
 
 | **Algorithm** | **Data Type** | **Run Time** | **ATE** | **Accuracy** | 
 |:-------------|:-------:|:-------:|:-------:|:-------:|
-| Propensity Scores Matching (full)    | Low| 1.34| 0.36| 17%|
-| Doubly Robust Estimation    | Low| 0.07| -6.61| -316%|
+| Propensity Scores Matching (full)    | Low| 1.7| 0.36| 17%|
+| Doubly Robust Estimation    | Low| 0.11| 2.09| 100%|
 | Stratification   | Low| 0.03| 2.38| 86%|
-| Propensity Scores Matching (full)    | High| 12.78| -11.71| 21%|
-| Doubly Robust Estimation    | High| 0.18| -34.43| 63%|
-| Stratification   | High| 0.02| -59.83| 91%|
+| Propensity Scores Matching (full)    | High| 11.81| -11.71| 21%|
+| Doubly Robust Estimation    | High| 0.23| -57.04| 96%|
+| Stratification   | High| 0.03| -59.83| 91%|
 
 	
 **Contribution statement**: 
 
 Catherine Gao: coordinated and attended all group meetings, performed propensity score estimation and reviewed results from all models, created Main Report and explained model comparisons, updated Github homepage and folders, put together presentation file and is the presenter of the group.
 
-Zi Fang: attended all group meetings, performend doubly robust estimation and reviewed evaluation results
+Zi Fang: attended all group meetings, performend doubly robust estimation, reviewed evaluation results, and debugged the doubly robust codes in the main report.
 
-Eve Washington: attended all group meetings, performed stratification, helped to validate doubly robust algorithm, and reviewed evaluation results
+Eve Washington: attended all group meetings, performed stratification, helped to validate doubly robust algorithm, and reviewed evaluation results.
 
-Siyuan Sang: attended all group meetings, performed propensity score matching and reviewed evaluation results
+Siyuan Sang: attended all group meetings, performed propensity score matching and reviewed evaluation results.
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
